@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Carlos Pluma — Backend Developer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120d0a"/>
+      <stop offset="0.55" stop-color="#4a1f12"/>
+      <stop offset="1" stop-color="#b4471f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffcf7a"/>
+      <stop offset="0.6" stop-color="#f08a3c" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#b4471f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b5a48"/>
+      <stop offset="1" stop-color="#2b231c"/>
+    </linearGradient>
+    <pattern id="stones" width="80" height="26" patternUnits="userSpaceOnUse">
+      <rect width="80" height="26" fill="none"/>
+      <path d="M0 25.5H80M40 0V26" stroke="#1d1712" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#sky)"/>
+  <circle cx="930" cy="215" r="120" fill="url(#sun)"/>
+
+  <!-- montanhas distantes -->
+  <path d="M0 250 L90 205 L170 232 L260 190 L360 228 L450 198 L560 236 L660 200 L760 230 L860 195 L980 232 L1080 204 L1200 228 V340 H0 Z" fill="#2a130c" opacity="0.85"/>
+
+  <!-- muralha -->
+  <g>
+    <rect x="0" y="236" width="1200" height="104" fill="url(#wall)"/>
+    <rect x="0" y="236" width="1200" height="104" fill="url(#stones)"/>
+    <rect x="0" y="230" width="1200" height="8" fill="#7d6a55"/>
+    <path d="M540 340 V292 a60 60 0 0 1 120 0 V340 Z" fill="#140f0b"/>
+    <path d="M540 292 a60 60 0 0 1 120 0" fill="none" stroke="#8a7660" stroke-width="3"/>
+  </g>
+
+  <!-- aves -->
+  <g fill="none" stroke="#1a0f0a" stroke-width="2" stroke-linecap="round">
+    <path d="M780 110 q8 -8 16 0 q8 -8 16 0"/>
+    <path d="M830 88 q6 -6 12 0 q6 -6 12 0"/>
+    <path d="M870 120 q5 -5 10 0 q5 -5 10 0"/>
+  </g>
+
+  <!-- brasas subindo -->
+  <g fill="#ffb15c">
+    <circle cx="120" cy="320" r="2"><animate attributeName="cy" values="330;150" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="320" r="1.6"><animate attributeName="cy" values="330;170" dur="9s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="9s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="320" r="2.2"><animate attributeName="cy" values="330;140" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="320" r="1.8"><animate attributeName="cy" values="330;160" dur="10s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="10s" begin="3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- texto -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#e8d8bd">
+    <text x="60" y="104" font-size="58" font-weight="700" letter-spacing="6">CARLOS PLUMA</text>
+    <rect x="62" y="122" width="300" height="2" fill="#c9a46a"/>
+    <text x="60" y="158" font-size="22" letter-spacing="2" fill="#d6bf98">Backend Developer · Python · Node.js · Oracle</text>
+    <text x="60" y="192" font-size="16" letter-spacing="3" fill="#b89c74">FORTALEZA — CE  ·  ALÉM DA MURALHA DO CÓDIGO</text>
+  </g>
+</svg>
