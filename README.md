@@ -74,8 +74,8 @@ No dia a dia trabalho com **Oracle** e o ERP **Winthor**, suporte às filiais e 
 ## 📡 Sinalizadores
 
 <p>
-  <a href="https://www.linkedin.com/in/SEU-USUARIO/"><img src="https://img.shields.io/badge/LinkedIn-1f3b2d?style=for-the-badge&logo=linkedin&logoColor=e8d8bd"/></a>
-  <a href="mailto:SEU-EMAIL@exemplo.com"><img src="https://img.shields.io/badge/E--mail-1f3b2d?style=for-the-badge&logo=gmail&logoColor=e8d8bd"/></a>
+  <a href="https://www.linkedin.com/in/carlos-pluma-9690492a9/"><img src="https://img.shields.io/badge/LinkedIn-1f3b2d?style=for-the-badge&logo=linkedin&logoColor=e8d8bd"/></a>
+  <a href="mailto:devpluma7@gmail.com"><img src="https://img.shields.io/badge/E--mail-1f3b2d?style=for-the-badge&logo=gmail&logoColor=e8d8bd"/></a>
 </p>
 
 <p align="center"><i>"O que está além da muralha é só mais um problema esperando por uma solução."</i></p>
