@@ -35,7 +35,6 @@ No dia a dia trabalho com **Oracle** e o ERP **Winthor**, suporte às filiais e 
   <img src="https://img.shields.io/badge/Node.js-1f3b2d?style=for-the-badge&logo=nodedotjs&logoColor=e8d8bd"/>
   <img src="https://img.shields.io/badge/Express-1f3b2d?style=for-the-badge&logo=express&logoColor=e8d8bd"/>
   <img src="https://img.shields.io/badge/TypeScript-1f3b2d?style=for-the-badge&logo=typescript&logoColor=e8d8bd"/>
-  <img src="https://img.shields.io/badge/React-1f3b2d?style=for-the-badge&logo=react&logoColor=e8d8bd"/>
 </p>
 <p>
   <img src="https://img.shields.io/badge/Oracle-5c4033?style=for-the-badge&logo=oracle&logoColor=e8d8bd"/>
